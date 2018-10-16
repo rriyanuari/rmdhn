@@ -3,7 +3,7 @@ $(document).ready( function(){
 	
 	$("#container").hide();
 	$("#container").load("home.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 	$('#atas').hide();
 	
@@ -11,7 +11,7 @@ $(document).ready( function(){
 	$('#home').click(function(){
 		$("#container").hide();
 		$('#container').load("home.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#atas').hide();
 		$('#bawah').show();
@@ -22,7 +22,7 @@ $(document).ready( function(){
 	$('#aboutMe1').click(function(){
 		$("#container").hide();
 		$('#container').load("aboutMe.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#atas').show();
 		$('#aboutMe2').show();
@@ -36,7 +36,7 @@ $(document).ready( function(){
 	$('#aboutMe2').click(function(){
 		$("#container").hide();	
 		$('#container').load("aboutMe.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#atas').show();
 		$('#aboutMe2').show();
@@ -48,7 +48,7 @@ $(document).ready( function(){
 	$('#contact1').click(function(){
 		$("#container").hide();	
 		$('#container').load("contact.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#atas').show();
 		$('#contact2').show();
@@ -60,7 +60,7 @@ $(document).ready( function(){
 	$('#contact2').click(function(){
 		$("#container").hide();	
 		$('#container').load("contact.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#atas').show();
 		$('#contact2').show();
