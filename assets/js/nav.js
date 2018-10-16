@@ -3,7 +3,7 @@ $(document).ready( function(){
 	// $('#container').load('home.html').hide().fadeIn('slow');
 	$("#container").hide();
 	$("#container").load("home.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 	$('#lanjutan').hide();
 	$('#aboutMe1').addClass('clicklink');
@@ -11,7 +11,7 @@ $(document).ready( function(){
 	$('#home').click(function(){
 		$("#container").hide();
 		$('#container').load("home.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#lanjutan').hide();
 		$('#turunan').show();
@@ -22,7 +22,7 @@ $(document).ready( function(){
 	$('#aboutMe1').click(function(){
 		$("#container").hide();
 		$('#container').load("aboutMe.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#lanjutan').show();
 		$('#turunan').hide();
@@ -33,7 +33,7 @@ $(document).ready( function(){
 	$('#aboutMe2').click(function(){
 		$("#container").hide();	
 		$('#container').load("aboutMe.html", function(){
-            $(this).fadeIn('slow');
+            $(this).fadeIn();
     });
 		$('#lanjutan').show();
 		$('#turunan').hide();
