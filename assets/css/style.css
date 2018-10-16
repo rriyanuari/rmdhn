@@ -11,6 +11,11 @@ body{
     flex-direction: column;
 }
 
+.bg{
+	background: #20232A;
+	padding: 10px;
+}
+
 .row{
 	margin-bottom: 10px;
 }
