@@ -1,0 +1,161 @@
+*{
+	margin: 0px; padding: 0px;
+	text-decoration: none;
+}
+body{
+	background-color: rgba(40, 44, 52, 1);
+	margin: 10px;
+	text-align: center;
+	display: flex;
+    min-height: 650px;
+    flex-direction: column;
+}
+
+.row{
+	margin-bottom: 10px;
+}
+
+#main {
+	flex: 1 0 auto;
+}
+
+.carousel{
+	height: 300px;
+	margin: 10px auto;
+	background: #20232A;
+}
+
+#container{
+	margin: 20px;
+}
+
+.judul{
+	font-size: 30px;
+}
+
+.tebel{
+	font-weight: bold;
+}
+
+/*-------------- WARNA ----------------*/
+	
+	.merah{
+		color: rgba(236, 96, 92, 1);
+	}
+	.ijo{
+		color: rgba(153, 199, 148, 1);	
+	}
+	.biru{
+		color: rgba(96, 180, 180, 1);
+	}
+	.ungu{
+		color: rgba(181, 149, 198, 1);
+	}
+
+/*-------------------------------------*/
+
+.value{
+	color:rgba(153, 199, 148, 1);
+	font-size: 24px;
+}
+
+p{
+	font-size: 24px;
+	color: white;
+}
+
+.typewrite{
+	/*margin: 20px auto;*/
+	font-size: 25px;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: rgba(181, 149, 198, 1);
+	width: 500px;
+}
+
+.kecil{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.file-struktur{
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: rgba(153, 199, 148, 1);
+}
+
+.link{
+	color: rgba(96, 180, 180, 1);
+	transition: color 1s;
+}
+.link:hover{
+	color: rgba(96, 180, 180, 0.4);
+	cursor: pointer;
+}
+
+.konten-gambar img{
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 40%;
+}
+
+.sosmed{
+	width: 40px;
+	height: 40px;
+	margin: 15px 10px;
+	border-radius: 40%;
+	transition: background 1s;
+}
+
+.sosmed:hover{
+	background-color: rgba(255,255,255,1);
+}
+
+audio{
+	margin: 0 auto;
+}
+
+footer{
+	color: rgba(236, 96, 92, 1);
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.icon{
+	width: 20px; height: 20px;
+	border-radius: 50%;
+	background-color: white;
+	position: relative;
+	top: 4px;
+}
+
+.info{
+	font-size: 20px
+}
+
+.clicklink{
+	text-decoration: underline;
+}
+
+/*-----------------------*/
+
+
+@media only screen and (max-width:480px){
+
+
+.judul{
+	font-size: 20px;
+}
+
+.value{
+	font-size: 18px;
+}
+
+p{
+	font-size: 18px;
+}
+
+.typewrite{
+	font-size: 22px;
+}
+
+}
+
